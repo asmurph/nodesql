@@ -26,8 +26,8 @@ app.use(function (req, res, next) {
 var dbConfig = {
  server: "mappers.database.windows.net", // Use your SQL server name
  database: "Appointments", // Database to connect to
- user: "smurph", // Use your username
- password: "71Chevelle", // Use your password
+ user: "", // Use your username
+ password: "", // Use your password
  port: 1433,
  // Since we're on Windows Azure, we need to set the following options
  options: {
